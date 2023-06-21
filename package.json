@@ -10,6 +10,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular-devkit/build-angular": "^16.1.0",
     "@angular/animations": "^16.1.0",
     "@angular/common": "^16.1.0",
     "@angular/compiler": "^16.1.0",
@@ -20,10 +21,11 @@
     "@angular/router": "^16.1.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "webpack-dev-server": "^4.15.1",
     "zone.js": "~0.13.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^16.1.0",
+    "@angular-builders/custom-webpack": "^16.0.0",
     "@angular/cli": "~16.1.0",
     "@angular/compiler-cli": "^16.1.0",
     "@types/jasmine": "~4.3.0",
@@ -33,6 +35,10 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "postcss-import": "^15.1.0",
+    "postcss-loader": "^7.3.3",
+    "postcss-scss": "^4.0.6",
+    "tailwindcss": "^3.3.2",
     "typescript": "~5.1.3"
   }
 }
